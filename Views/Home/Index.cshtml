@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="h1"> Móveis P&M</h1>
+    <p>Tornando sua casa mais bonita</p>
+</div>
+
+<div class="row">
+
+     <div class="col-6">
+        <br><br><br><br><br><br><br><br><br>
+        <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Endereço de email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+            
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+        <br>
+        </form>
+
+        <a asp-controller="Home" asp-action="Cadastro">ou cadastre-se</a>
+    </div>
+    
+    <div class="col-4">
+        <img src="https://images.unsplash.com/photo-1538688525198-9b88f6f53126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="móveis" width="900">
+    </div>
+    
+</div>
+
+
